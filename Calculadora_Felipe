@@ -12,13 +12,15 @@ using namespace std;
     cout << "Digite o segundo número: " << endl;
     cin >> n2;
 
-    cout << "A soma e: " << n1 + n2 << endl;
-    cout << "A subtracao e: " << n1 - n2 << endl;
-    cout << "O produto e: " << n1 * n2 << endl;
-    cout << "A divisao e: " << n1 / n2 << endl;
+    cout << "A soma é: " << n1 + n2 << endl;
+    cout << "A subtracao é: " << n1 - n2 << endl;
+    cout << "O produto é: " << n1 * n2 << endl;
+    cout << "A divisao é: " << n1 / n2 << endl;
     cout << "A potencia é: " << pow(n1,n2) << endl;
+    cout << "A exponencial do primeiro número é: " << exp(n1) << endl;
+    cout << "A exponencial do segundo número é: " << exp(n2) << endl;
 
 
-    system("pause");
+    
     return 0;
 }
