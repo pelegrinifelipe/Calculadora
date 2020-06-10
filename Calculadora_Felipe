@@ -5,7 +5,7 @@
 int main() 
 {
 using namespace std;
-    int n1, n2, som, sub, mult, div;
+    int n1, n2;
 	cout << "Digite o primeiro número: " << endl;
     cin >> n1;
     cout << "Digite o segundo número: " << endl;
